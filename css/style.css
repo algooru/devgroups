@@ -196,9 +196,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 80%;
   }
 
-
-
-
 }
 
 #hero h2 {
@@ -317,6 +314,8 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     position: relative;
   }
+
+
 
 }
 
@@ -528,7 +527,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .background {
-  min-height: 300px;
+  min-height: 500px;
   background: url(../img/about-img.jpg) center top no-repeat;
   margin-bottom: 10px;
 }
@@ -547,6 +546,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   #about .about-container .title {
     padding-top: 15px;
   }
+
+  #about .about-container .background {
+
+  background: url(../img/about-img-mob.jpg) center top no-repeat;
+    min-height: 300px;
+  }
+
 }
 
 #about .about-container p {
