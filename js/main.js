@@ -86,7 +86,6 @@ jQuery(document).ready(function ($) {
           }
         }
 
-
         $('html, body').animate({
           scrollTop: target.offset().top - top_space
         }, 1500, 'easeInOutExpo');

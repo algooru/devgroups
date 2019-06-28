@@ -133,7 +133,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-change{
-  width: 70%;
+  width: 60%;
+  height: 60%;
 }
 
 /*--------------------------------------------------------------
@@ -194,6 +195,10 @@ h1, h2, h3, h4, h5, h6 {
   .pic img{
     width: 80%;
   }
+
+
+
+
 }
 
 #hero h2 {
@@ -304,6 +309,15 @@ h1, h2, h3, h4, h5, h6 {
   #nav-menu-container {
     display: none;
   }
+
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/hero-bg-mob.jpg) top center;
+    background-size: cover;
+    position: relative;
+  }
+
 }
 
 /* Nav Meu Styling */
