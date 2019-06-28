@@ -132,6 +132,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
 }
 
+.logo-change{
+  width: 70%;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -747,8 +751,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     opacity: 0.5;
     transition: 0.3s;
     padding: 15px 0;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+    -/*webkit-filter: grayscale(100%);  Safari 6.0 - 9.0
+  filter: grayscale(100%);*/
 }
 
 .comp-img:hover {
@@ -900,7 +904,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .pic img {
-  max-width: 100%;
+  max-width: 95%;
+  border-radius: 100%;
+  -webkit-box-shadow: 3px 6px 13px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 6px 13px -6px rgba(0,0,0,0.75);
+box-shadow: 3px 6px 13px -6px rgba(0,0,0,0.75);
 }
 
 #team .member h4 {

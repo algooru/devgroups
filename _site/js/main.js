@@ -5,9 +5,11 @@ jQuery(document).ready(function ($) {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
       $('#header').addClass('header-fixed');
+      $('#logo-image').addClass('logo-change');
     } else {
       $('.back-to-top').fadeOut('slow');
       $('#header').removeClass('header-fixed');
+      $('#logo-image').removeClass('logo-change');
     }
   });
   $('.back-to-top').click(function () {
@@ -83,6 +85,7 @@ jQuery(document).ready(function ($) {
             top_space = top_space - 20;
           }
         }
+
 
         $('html, body').animate({
           scrollTop: target.offset().top - top_space
