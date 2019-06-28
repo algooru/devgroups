@@ -190,6 +190,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
     line-height: 36px;
   }
+
+  .pic img{
+    width: 80%;
+  }
 }
 
 #hero h2 {
