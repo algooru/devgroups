@@ -143,8 +143,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
-  background-size: cover;
+  background: rgb(0,72,84);
+background: -moz-linear-gradient(97deg, rgba(0,72,84,1) 0%, rgba(0,240,255,1) 47%, rgba(3,171,255,1) 100%);
+background: -webkit-linear-gradient(97deg, rgba(0,72,84,1) 0%, rgba(0,240,255,1) 47%, rgba(3,171,255,1) 100%);
+background: linear-gradient(97deg, rgba(0,72,84,1) 0%, rgba(0,240,255,1) 47%, rgba(3,171,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004854",endColorstr="#03abff",GradientType=1);
   position: relative;
 }
 
@@ -310,8 +313,6 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url(../img/hero-bg-mob.jpg) top center;
-    background-size: cover;
     position: relative;
   }
 
@@ -710,7 +711,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: url(../img/call-to-action-bg.jpg) no-repeat center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -772,7 +773,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .comp-img {
     max-width: 100%;
-    opacity: 0.5;
+    opacity: 1;
     transition: 0.3s;
     padding: 15px 0;
     -/*webkit-filter: grayscale(100%);  Safari 6.0 - 9.0
@@ -924,15 +925,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
+  padding: 6%;
+
 }
 
 #team .member .pic img {
   max-width: 95%;
-  border-radius: 100%;
-  -webkit-box-shadow: 3px 6px 13px -6px rgba(0,0,0,0.75);
--moz-box-shadow: 3px 6px 13px -6px rgba(0,0,0,0.75);
-box-shadow: 3px 6px 13px -6px rgba(0,0,0,0.75);
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 17px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 17px -6px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 17px -6px rgba(0,0,0,0.75);
 }
 
 #team .member h4 {
@@ -1099,14 +1101,13 @@ box-shadow: 3px 6px 13px -6px rgba(0,0,0,0.75);
 }
 
 .future img{
-  border-radius: 10%;
   height: 50%;
   opacity: 1;
 }
 
-#hero .hero-container h1{
+/*#hero .hero-container h1{
   margin-top: 12%;
-}
+}*/
 
 .coming-soon{
     width: 150px;
