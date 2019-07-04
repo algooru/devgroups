@@ -1139,8 +1139,8 @@ box-shadow: 10px 10px 17px -6px rgba(0,0,0,0.75);
 
 .header-imgs{
 
-  max-width: 70%;
-  max-height: 40%;
+  width: 70%;
+  height: 40%;
 }
 
 .future-text{
